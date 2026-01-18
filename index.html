@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie4uOG Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="logo">Movie4uOG</div>
+    <div class="searchbox">
+      <input id="search" type="text" placeholder="Search movies, web series...">
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="banner-text">
+      <h1>Latest Movies & Web Series</h1>
+      <p>Watch legal links only | Powered by TMDB</p>
+    </div>
+  </section>
+
+  <section class="tabs">
+    <button class="tab active" data-type="movie">Movies</button>
+    <button class="tab" data-type="tv">Web Series</button>
+  </section>
+
+  <section class="movie-grid" id="movies"></section>
+
+  <script src="customData.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
